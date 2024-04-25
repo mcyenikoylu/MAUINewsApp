@@ -51,22 +51,23 @@
                 <Label Text="Show All" Style="{StaticResource ShowAll}"/>
             </StackLayout>
 
+ <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
             <FlexLayout BindableLayout.ItemsSource="{Binding Tags}"
-                        Wrap="Wrap"
-                        Margin="20,0">
+                Margin="15,5,20,10" >
                 <BindableLayout.ItemTemplate>
                     <DataTemplate>
                         <Frame BackgroundColor="#f2f2f2"
                                BorderColor="Transparent"
                                CornerRadius="4"
-                               Padding="8,2"
-                               Margin="0,0,4,10">
+                               Padding="5"
+                               Margin="5,0,0,0"
+                               >
                             <Label Text="{Binding .}" FontFamily="Poppins" VerticalOptions="Center"/>
                         </Frame>
                     </DataTemplate>
                 </BindableLayout.ItemTemplate>
             </FlexLayout>
-
+  </ScrollView>
             <BoxView />
 
             <StackLayout Style="{StaticResource HeaderStack}">

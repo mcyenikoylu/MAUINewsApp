@@ -16,10 +16,8 @@ namespace MAUIDemo.Services
                 "#nature",
                 "#music",
                 "#arts",
-                "#marketing",
                 "#business",
                 "#science",
-                "#world",
                 "#sports",
                 "#party"
             };
@@ -33,7 +31,6 @@ namespace MAUIDemo.Services
                 new Category("Politics",MaterialDesignIcons.AccountBalance),
                 new Category("Business",MaterialDesignIcons.Work),
                 new Category("Music",MaterialDesignIcons.MusicNote),
-                new Category("Marketing",MaterialDesignIcons.Store),
                 new Category("Nature",MaterialDesignIcons.LocalFlorist),
                 new Category("Arts",MaterialDesignIcons.ColorLens),
                 new Category("Travel",MaterialDesignIcons.FlightTakeoff),
